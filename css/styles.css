@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comic Neue', cursive;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header{
+    width:52vw;
+    height: 10vh;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.nav-bar{
+    width:100%;
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
+}
+
+.nav-bar__title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:hsl(0, 0%, 100%);
+}
+
+.main{
+    width:52vw;
+    height: 400px;
+    padding-top: 1rem;
+} 
+
+.main__title{
+    width:100%;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.main__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 560px;
+}
+
+.secondary__info{
+    height: 100%;
+}
+
+.my-user-section{
+    width:27%;
+    height: 300px;
+    padding: 1rem;
+    border: 0.23rem solid hsl(0, 0%, 0%);
+    border-radius: 0.25rem;
+}
+
+.my-user-section__image{
+    width: 6.5rem;
+    height: 6.5rem;
+    background-image: url(/assets/images/user-circle.png);
+    background-size: cover;
+}
+
+.my-user-section__link{
+    font-size: 1.48rem;
+    font-weight: 700;
+}
+
+.my-user-section__description{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.user-section{
+    width:37vw;
+    height: 180px;
+    padding: 0rem 2rem;
+    border: 0.23rem solid hsl(0, 0%, 0%);
+    border-radius: 0.25rem;
+}
+
+.user-section__1{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+
+.user-section__2{
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.user-section__name{
+    display: block;
+    font-size: 1.8rem;
+}
+
+.user-section__buttons{
+    width:230px;
+    height: 20px;
+}
+
+.user-section__likes{
+    font-size: 1.5rem;
+}
+
+.user-section__button{
+    cursor:pointer;
+    width: 7.5ch;
+    height: 2.4rem;
+    padding: 0.2rem 0;
+    border-radius: 0.1rem;
+    border: 3.54px solid hsl(0, 0%, 0%);
+    box-shadow: 4px 5.8px 2px 0px hsl(0, 0%, 0%);
+    background-color: hsl(45, 100%, 70%);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.user-section__description{
+    width:92%;
+    height: 200px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+a{
+    font-weight: 700;
+}

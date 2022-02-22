@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header flex-row">
+        <nav class="nav-bar flex-row">
+            <h1 class="nav-bar__title">Network</h1>
+        </nav>
+    </header>
+    <main class="main">
+        <h2 class="main__title">Your feed</h2>
+        <div class="main__info">
+            <section class="my-user-section flex-column">
+                <div class="my-user-section__image"></div>
+                <a href="#" class="my-user-section__link">Add an avatar</a>
+                <h2 class="my-user-section__description">James Doe</h2>
+            </section>
+            <div class="secondary__info flex-column">
+                <section class="user-section flex-column">
+                    <div class="user-section__1 flex-row">
+                        <div>
+                            <h2 class="user-section__name">Neil M</h2>
+                        </div>
+                        <div class="user-section__buttons flex-row">
+                            <h3 id="likes-box-1" class="user-section__likes">9 like(s)</h3> 
+                            <button  class="user-section__button" onclick="btnAddLike('likes-box-1')">Like</button>
+                        </div>
+                    </div>
+                    <div class="user-section__2">
+                        <p class="user-section__description">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </section>
+                <section class="user-section flex-column">
+                    <div class="user-section__1 flex-row">
+                        <div>
+                            <h2 class="user-section__name">Nichole K</h2>
+                        </div>
+                        <div class="user-section__buttons flex-row">
+                            <h3 id="likes-box-2" class="user-section__likes">12 like(s)</h3> 
+                            <button  class="user-section__button" onclick="btnAddLike('likes-box-2')">Like</button>
+                        </div>
+                    </div>
+                    <div class="user-section__2">
+                        <p class="user-section__description">Just finished my <a href="#">next comic</a>, check it out. </p>
+                    </div>
+                </section>
+                <section class="user-section flex-column">
+                    <div class="user-section__1 flex-row">
+                        <div>
+                            <h2 class="user-section__name">Jim R</h2>
+                        </div>
+                        <div class="user-section__buttons flex-row">
+                            <h3 id="likes-box-3" class="user-section__likes">9 like(s)</h3> 
+                            <button  class="user-section__button" onclick="btnAddLike('likes-box-3')">Like</button>
+                        </div>
+                    </div>
+                    <div class="user-section__2">
+                        <p class="user-section__description">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="/src/index.js"></script>
+</body>
+</html>
